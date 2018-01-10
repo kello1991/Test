@@ -1,0 +1,9 @@
+carnet_homepage:
+    path:     /
+    defaults: { _controller: CarnetBundle:Default:index }
+carnet_addFriend:
+    path:     /addfriend/{id}
+    defaults: { _controller: CarnetBundle:User:addAmi }
+carnet_removeFriend:
+    path:     /removefriend/{id}
+    defaults: { _controller: CarnetBundle:User:removeAmi }
